@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+
+#par1 {
+  color: blue;
+  text-align: center;
+  direction: rtl;
+  /* unicode-bidi: bidi-override; ayna görüntsü yapar. önemli değil ama mülakatlarda sorluyormuş */
+  column-count: 3;
+  column-rule: 3px solid blue;
+  /* bazen tarıyıcıda hata verebiliyor o zaman allttaki gibi */
+  -webkit-column-count: 3;
+  -moz-column-rule: 3px solid blue;
+}
+
+#par2 {
+  color: rgba(255, 0, 0, 1);
+  text-align: right;
+  text-transform: lowercase;
+  text-shadow: 3px 3px 5px red; /* sırayla x ekseni y ekseni blur değeri */
+}
+
+#par3 {
+  color: #7f25c9;
+  text-align: justify;
+  text-decoration: line-through dashed red 5px; /* sıraları değişebilir */
+}
+
+#par4 {
+  color: hsl(0, 100%, 50%);
+  text-decoration: underline;
+  text-indent: 2rem;
+  letter-spacing: 10px;
+  line-height: 1rem;
+}
+
+#par5 {
+  color: fuchsia;
+  text-decoration: overline wavy blue;
+  text-transform: uppercase;
+  word-spacing: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Yellowtail", cursive;
+}

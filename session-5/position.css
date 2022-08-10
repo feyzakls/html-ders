@@ -22,7 +22,7 @@
     width: 100px;
     height: 100px;
     background-color: rgba(213, 225, 101, 0.885);
-    /* position: relative; */
+    position: relative;
     /* top: 20px;
     left: 30px; */
 
@@ -46,4 +46,11 @@
     bottom: 0;
     right: 0;
 
+}
+
+#paragraf{
+    background-color: antiquewhite;
+    position: sticky;
+    top: 5px;
+    left: 0px;
 }

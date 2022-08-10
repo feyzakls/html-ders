@@ -1,0 +1,49 @@
+.main{
+    width: 100%;
+    background-color: rgb(88, 253, 253);
+    height: 1000px;
+    margin-top: 30px;
+    padding: 5px;
+    /* position: relative; */
+}
+
+.box1{
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: magenta;
+    /* position: fixed; */
+
+    top: 0;
+    left: 0;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(213, 225, 101, 0.885);
+    /* position: relative; */
+    /* top: 20px;
+    left: 30px; */
+
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 30, 0.725);
+    /* position: absolute; */
+    /* position: sticky; */
+    top: 65px;
+    
+}
+#icerde{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    font-size: .5rem;
+    color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
